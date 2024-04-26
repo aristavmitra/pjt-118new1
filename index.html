@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Quick Draw Web App</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Comic+Neue&family=Josefin+Sans&family=Montserrat&family=Poppins&family=Quicksand&family=Salsa&family=Tulpen+One&display=swap" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+
+     <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <center>
+        <h1>Quick Draw
+            <button id="show_sketch" data-toggle="modal" data-target="showsketch">Show Sketch</button>
+        </h1>
+       
+        <label id="identify">Your Sketch :</label>
+        <br>
+        <label id="confidence">Confidence :</label>
+        <br>
+        <label id="result">Sketch To Be Drawn :</label>
+        <br>
+        <label id="score">Score :</label>
+        <label id="timer">Timer :</label>
+        </center>
+        
+        
+    </body>
+    <script src="main.js"></script>
+    </html>
